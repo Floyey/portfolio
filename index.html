@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Jeremy-BD - Portfolio</title>
+        <meta name="description" content="Portfolio de Jeremy-BD">
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://jeremy-bd.com">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Jeremy-BD - Portfolio">
+        <meta property="og:description" content="Portfolio de Jeremy-BD">
+        <!-- <meta property="og:image" content=""> -->
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="jeremy-bd.com">
+        <meta property="twitter:url" content="https://jeremy-bd.com">
+        <meta name="twitter:title" content="Jeremy-BD - Portfolio">
+        <meta name="twitter:description" content="Portfolio de Jeremy-BD">
+        <!-- <meta name="twitter:image" content=""> -->
+
+        <!-- FAVICON -->
+        <!-- <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"> -->
+
+        <!-- REMIXICONS -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!-- SWIPER CSS -->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Jeremy-BD</a>
+
+                <div class="nav__menu active-link" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="ri-home-5-line"></i> Accueil
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="ri-trophy-line"></i> Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="ri-book-open-line"></i> Qualification
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="ri-briefcase-line"></i> Services
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="ri-image-line"></i> Projets
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="ri-chat-3-line"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__buttons">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <!-- Toggle button -->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-4-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!-- Home -->
+            <section class="home section" id="home">
+                <div class="home__container container grid section__border">
+                    <!-- Center -->
+                    <div class="home__data grid">
+                        <h1 class="home__title">
+                            Je suis Jeremy-BD <br>
+                            Développeur <br>
+                            Français
+                        </h1>
+
+                        <div class="home__blob grid">
+                            <div class="home__perfil">
+                                <img src="images/perfil.png" alt="home perfil">
+                            </div>
+                        </div>
+
+                        <ul class="home__social">
+                            <a href="https://github.com/Jeremy-BD" target="_blank" class="home__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <!-- Left -->
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">
+                                BIOGRAPHIE
+                            </h3>
+                            <p class="home__info-description">
+                                Salut, je suis Jeremy-BD, développeur français. <br>
+                                Passionné d'informatique en tout genre.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="home__info-title">
+                                SERVICES
+                            </h3>
+                            <p class="home__info-description">
+                                Website Developpement <br>
+                                IA Developpement <br>
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="home__info-title">
+                                CONTACT
+                            </h3>
+                            <p class="home__info-description">
+                                contact@jeremy-bd.com <br>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Right -->
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">
+                                ANNÉES D'EXPÉRIENCE
+                            </h3>
+                            <p class="home__info-number">
+                                03+
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="home__info-title">
+                                PROJETS FINALISÉS
+                            </h3>
+                            <p class="home__info-number">
+                                04+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">Mes compétences</span>
+
+                <div class="skills__container container grid section__border">
+                    <!-- Backend -->
+                    <div class="skills__content">
+                        <h3 class="skills__title">
+                            <i class="ri-braces-line"></i> Backend
+                        </h3>
+                        <div class="skills__info">
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="images/php-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">PHP</h3>
+                                <span class="skills__subtitle">Avancé</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="images/logo-javascript.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">JavaSript</h3>
+                                <span class="skills__subtitle">Avancé</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="images/mysql-6.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">SQL</h3>
+                                <span class="skills__subtitle">Avancé</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="images/python-5.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">Python</h3>
+                                <span class="skills__subtitle">Intermédiaire</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="images/nodejs-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">Node JS</h3>
+                                <span class="skills__subtitle">Base</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frontend -->
+                    <div class="skills__content">
+                        <h3 class="skills__title">
+                            <i class="ri-layout-3-line"></i> Frontend
+                        </h3>
+                        <div class="skills__info">
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="images/html-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__subtitle">Avancé</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="images/css-3.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__subtitle">Avancé</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="images/react-2.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">React</h3>
+                                <span class="skills__subtitle">Base</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="images/figma-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">Figma</h3>
+                                <span class="skills__subtitle">Base</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Qualification -->
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">Expérience & Formation</span>
+
+                <div class="qualification__container container grid section__border">
+                    <!-- Education -->
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">
+                            <i class="ri-pencil-ruler-2-line"></i> Formation
+                        </h3>
+
+                        <div class="qualification__info">
+                            <div>
+                                <h3 class="qualification__name">
+                                    Mastère dev, bigdata & IA
+                                </h3>
+                                <span class="qualification__country">IPSSI - France</span>
+                                <span class="qualification__year">2022-2024</span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__name">
+                                    Bachelor développement fullstack, devOps
+                                </h3>
+                                <span class="qualification__country">IPSSI - France</span>
+                                <span class="qualification__year">2021-2022</span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__name">
+                                    DEUST SINE
+                                </h3>
+                                <span class="qualification__country">Polytech Sorbonne - France</span>
+                                <span class="qualification__year">2019-2021</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work -->
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">
+                            <i class="ri-building-line"></i> Expérience
+                        </h3>
+
+                        <div class="qualification__info">
+                            <div>
+                                <h3 class="qualification__name">
+                                    Chef de projet développement
+                                </h3>
+                                <span class="qualification__country">UNICANCER - France</span>
+                                <span class="qualification__year">2021-Aujoud'hui</span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__name">
+                                    Technicien de contrôle
+                                </h3>
+                                <span class="qualification__country">SERDI - France</span>
+                                <span class="qualification__year">2019-2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="images/shape-circle.svg" alt="qualification image" class="qualification__img">
+            </section>
+
+            <!-- SERVICES -->
+            <section class="services section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">Ce que j'offre</span>
+
+                <div class="services__container container grid section__border">
+                    <div class="services__card">
+                        <i class="ri-code-line"></i>
+
+                        <h2 class="services__title">
+                            Web <br>
+                            Développeur
+                        </h2>
+
+                        <p class="services__description">
+                            Je développe votre site internet avec
+                            l'interface que vous voulez et toutes
+                            les fonctionnalités.
+                            Je maintiens également votre site à jour.
+                        </p>
+
+                        <div class="services__border"></div>
+                    </div>
+
+                    <div class="services__card">
+                        <i class="ri-robot-line"></i>
+
+                        <h2 class="services__title">
+                            IA <br>
+                            Développeur
+                        </h2>
+
+                        <p class="services__description">
+                            Je développe votre intelligence artificielle
+                            sur n'importe quel type de données.
+                            Je peux également créer une interface web.
+                        </p>
+
+                        <div class="services__border"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROJECTS -->
+            <section class="projects section" id="projects">
+                <h2 class="section__title">Projets</h2>
+                <span class="section__subtitle">Les projets que j'ai réalisés</span>
+
+                <div class="container section__border">
+                    <div class="projects__container swiper">
+                        <div class="swiper-wrapper">
+                            <div class="projects__content swiper-slide">
+                                <img src="images/Pokemon-Pokédex.png" alt="projects image" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle">Web & IA</span>
+                                    <h1 class="projects__title">Pokedex IA</h1>
+
+                                    <a href="https://pokedexia.jeremy-bd.com" target="_blank" class="projects__button">
+                                        Voir plus <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contactez-moi</h2>
+                <span class="section__subtitle">Restons en contact</span>
+
+                <div class="contact__container container grid section__border">
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-chat-3-line"></i> Comment me contacter
+                        </h3>
+
+                        <div class="contact__info">
+                            <div class="contact__data">
+                                <span class="contact__data-title">Email</span>
+                                <span class="contact__data-info">contact@jeremy-bd.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-send-plane-line"></i> Écrivez-moi votre projet
+                        </h3>
+
+                        <form action="" class="contact__form" id="contact-form">
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Nom</label>
+                                <input type="text" name="user_name" required placeholder="Votre nom" class="contact__form-input" id="contact-name">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Mail</label>
+                                <input type="email" name="user_email" required placeholder="Votre mail" class="contact__form-input" id="contact-mail">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label class="contact__form-tag">Votre projet</label>
+                                <textarea name="user_project" placeholder="Écrivez votre projet" id="contact-project" class="contact__form-input"></textarea>
+                            </div>
+
+                            <p class="contact__message" id="contact-message"></p>
+
+                            <button type="submit" class="contact__button">
+                                Envoyer <i class="ri-arrow-right-up-line"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Jeremy-BD</h1>
+                <p>Développeur</p>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#home" class="footer__link">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="footer__link">Projets</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://github.com/Jeremy-BD" target="_blank" class="footer__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Copyright Jeremy-BD. All right reserved
+                </span>
+            </div>
+        </footer>
+
+
+        <!-- SCROLL UP -->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <!-- SCROLLREVEAL -->
+        <script src="js/scrollreveal.min.js"></script>
+
+        <!-- SWIPER JS -->
+        <script src="js/swiper-bundle.min.js"></script>
+
+        <!-- EMAIL JS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        <!-- MAIN JS -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
